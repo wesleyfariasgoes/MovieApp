@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.navigation.compose.rememberNavController
 import br.com.movieapp.BuildConfig
-import br.com.wfgmovieapp.framework.apresentation.MainScreen
+import br.com.wfgmovieapp.core.apresentation.MainScreen
 import br.com.wfgmovieapp.ui.theme.MovieAppTheme
 
 class MainActivity : ComponentActivity() {
