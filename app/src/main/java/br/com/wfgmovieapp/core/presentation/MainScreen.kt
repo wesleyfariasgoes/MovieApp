@@ -1,11 +1,11 @@
-package br.com.wfgmovieapp.core.apresentation
+package br.com.wfgmovieapp.core.presentation
 
 import android.annotation.SuppressLint
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
-import br.com.wfgmovieapp.core.apresentation.navigation.BottomNavigationBar
-import br.com.wfgmovieapp.core.apresentation.navigation.NavigationGraph
+import br.com.wfgmovieapp.core.presentation.navigation.BottomNavigationBar
+import br.com.wfgmovieapp.core.presentation.navigation.NavigationGraph
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable

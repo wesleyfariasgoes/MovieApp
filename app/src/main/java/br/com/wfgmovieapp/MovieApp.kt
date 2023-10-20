@@ -1,9 +1,10 @@
 package br.com.wfgmovieapp
 
 import android.app.Application
-import br.com.movieapp.BuildConfig
+import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
+@HiltAndroidApp
 class MovieApp: Application() {
 
     override fun onCreate() {

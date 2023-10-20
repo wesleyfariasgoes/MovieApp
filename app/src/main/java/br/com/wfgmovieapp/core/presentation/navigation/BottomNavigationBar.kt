@@ -1,4 +1,4 @@
-package br.com.wfgmovieapp.core.apresentation.navigation
+package br.com.wfgmovieapp.core.presentation.navigation
 
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem

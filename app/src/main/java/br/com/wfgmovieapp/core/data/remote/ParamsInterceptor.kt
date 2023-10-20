@@ -1,6 +1,6 @@
 package br.com.wfgmovieapp.core.data.remote
 
-import br.com.movieapp.BuildConfig
+import br.com.wfgmovieapp.BuildConfig
 import br.com.wfgmovieapp.core.util.Constants
 import okhttp3.Interceptor
 import okhttp3.Response

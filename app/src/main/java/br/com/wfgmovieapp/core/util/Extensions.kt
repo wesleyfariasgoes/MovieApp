@@ -1,6 +1,7 @@
 package br.com.wfgmovieapp.core.util
 
-import br.com.movieapp.BuildConfig
+import br.com.wfgmovieapp.BuildConfig
+
 
 fun String?.toPosUrl() = "${BuildConfig.BASE_URL_IMAGE}$this"
 

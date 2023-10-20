@@ -10,11 +10,11 @@ def apiKeyProperties = new Properties()
 apiKeyProperties.load(new FileInputStream(apiKeyPropertiesFile))
 
 android {
-    namespace 'br.com.movieapp'
+    namespace 'br.com.wfgmovieapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "br.com.movieapp"
+        applicationId "br.com.wfgmovieapp"
         minSdk 24
         targetSdk 33
         versionCode 1
