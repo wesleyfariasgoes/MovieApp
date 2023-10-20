@@ -7,6 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import br.com.wfgmovieapp.features.popular.presentation.MoviePopularScreen
 import br.com.wfgmovieapp.features.popular.presentation.MoviePopularViewModel
+import br.com.wfgmovieapp.features.popular.presentation.MovieSearchScreen
 
 @Composable
 fun NavigationGraph(navController: NavHostController) {
@@ -24,7 +25,12 @@ fun NavigationGraph(navController: NavHostController) {
                 }
             )
         }
-        composable(BottomNavItem.MovieSearch.route){}
+        composable(BottomNavItem.MovieSearch.route){
+            MovieSearchScreen(
+                navigateToDetailMovie = {
+                }
+            )
+        }
         composable(BottomNavItem.MovieFavorite.route){}
     }
 }

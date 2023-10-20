@@ -18,6 +18,7 @@ import androidx.paging.compose.LazyPagingItems
 import br.com.wfgmovieapp.core.domain.model.Movie
 import br.com.wfgmovieapp.core.presentation.components.common.ErrorScreen
 import br.com.wfgmovieapp.core.presentation.components.common.LoadingView
+import br.com.wfgmovieapp.ui.theme.yellow
 
 @Composable
 fun MovieContent(
@@ -26,7 +27,7 @@ fun MovieContent(
     paddingValue: PaddingValues,
     onClick: (movieId: Int) -> Unit
 ) {
-    Box(modifier = modifier.background(Color.Black)) {
+    Box(modifier = modifier.background(yellow)) {
         LazyVerticalGrid(
             columns = GridCells.Fixed(3),
             contentPadding = paddingValue,

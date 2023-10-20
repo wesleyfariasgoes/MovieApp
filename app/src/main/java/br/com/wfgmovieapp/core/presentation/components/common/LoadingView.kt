@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import br.com.wfgmovieapp.ui.theme.black
 import br.com.wfgmovieapp.ui.theme.yellow
 
 @Composable
@@ -22,7 +23,7 @@ fun LoadingView(modifier: Modifier = Modifier) {
         horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        CircularProgressIndicator(modifier = Modifier.size(40.dp), color = yellow)
+        CircularProgressIndicator(modifier = Modifier.size(40.dp), color = black)
     }
 }
 
