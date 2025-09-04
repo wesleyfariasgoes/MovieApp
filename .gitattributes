@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Configurações sensíveis
+apikey.properties
+
+# Android generated
+captures/
+.externalNativeBuild/
+.cxx/

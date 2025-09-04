@@ -9,6 +9,6 @@ fun List<MovieResult>.toMovie() = map {movieResult ->
         id = movieResult.id,
         title = movieResult.title,
         voteAverage = movieResult.voteAverage,
-        imageUrl = movieResult.posterPath?.toPosUrl() ?:""
+        imageUrl = movieResult.posterPath.toPosUrl() ?:""
     )
 }

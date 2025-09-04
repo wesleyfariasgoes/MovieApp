@@ -17,6 +17,9 @@
     <string name="favorite_movies">Filmes Favoritos</string>
     <string name="detail_movie">Detalhe do Filme</string>
 
+    <!--    Alertas -->
+    <string name="internet_alert">Verifique sua conexão com a internet</string>
+
     <!--    Movie Search-->
     <string name="search_movies_field">Pesquisar filmes</string>
 </resources>

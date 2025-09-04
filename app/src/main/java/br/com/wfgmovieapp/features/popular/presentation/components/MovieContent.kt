@@ -12,9 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
+import br.com.wfgmovieapp.R
 import br.com.wfgmovieapp.core.domain.model.Movie
 import br.com.wfgmovieapp.core.presentation.components.common.ErrorScreen
 import br.com.wfgmovieapp.core.presentation.components.common.LoadingView
@@ -76,7 +78,8 @@ fun MovieContent(
                                 GridItemSpan(maxLineSpan)
                             }
                         ) {
-                            ErrorScreen(message = "Verifique sua conexão com a internet",
+                            ErrorScreen(
+                                message = stringResource(id = R.string.internet_alert),
                                 retry = {
                                     retry()
                                 })
@@ -84,6 +87,7 @@ fun MovieContent(
                     }
                 }
             }
+
         }
     }
 }
